@@ -1,0 +1,119 @@
+body   {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    text-align: center;
+}
+
+h1, h2, h4, p   {
+    font-family: Helvetica, sans-serif;
+    color: seashell;
+    font-weight: 400;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    max-height: 69px;
+    width: 100%;
+    background-color: black;
+    border-bottom: 1px solid seashell;    
+}
+
+.header-container   {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo   {
+    height: 50px;
+    padding: 5px;
+    margin: 5px;
+    display: inline-flex    
+}
+
+.nav    {
+    display: inline-flex
+}
+
+a   {
+    padding: 10px;
+    margin: 10px;
+    color: seashell;
+}
+
+section{
+    margin-bottom: 100px;
+}
+
+#mission    {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("images/img-mission-background.webp");
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1200px 700px;
+    margin: 0 30px;
+    margin-bottom: 100px;
+}
+
+.mission-banner {
+    background-color: black;
+    opacity: 1;
+}
+
+.featured-container {
+    display: inline-flex;
+    max-width: 1000px;
+    height: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.featured-image {
+    height: 200px;
+    width: 300px;
+    padding: 10px 10px;
+}
+
+.banner {
+    height: 500px;
+    max-width: 1200px;
+    margin: 40px auto auto auto;
+    padding-top: 85px;
+    background-image: url("images/img-locations-background.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.text-top   {
+    font-size: 43px;
+    font-weight: bold;
+}
+
+.box-container  {
+    max-width: 1050px;
+    margin: 15px auto auto auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    height: 300px;
+    padding: 20px;
+    margin-bottom: auto;
+    flex-basis: 30%;
+    box-sizing: border-box;
+    background-color: black;
+    opacity: 0.8;
+}
+
+.copyright  {
+    margin-left: 20px;
+    text-align: left;
+}
